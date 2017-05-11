@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.screenshots = [ 	"https://raw.githubusercontent.com/MatejBalantic/MBDocs/master/MBAutoGrowingTextView/animated.gif"]
   s.social_media_url = "http://twitter.com/skavt"
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/MatejBalantic/MBAutoGrowingTextView.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/MatejBalantic/MBAutoGrowingTextView.git", :tag => s.version.to_s }
   s.source_files  = 'MBAutoGrowingTextView/*.{h,m}'
   s.dependency 'SAMTextView', '~> 0.2'
   s.requires_arc = true
