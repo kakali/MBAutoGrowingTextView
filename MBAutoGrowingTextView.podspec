@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MBAutoGrowingTextView"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "An auto-layout based light-weight UITextView subclass which automatically grows and shrinks based on the size of user input"
 
   s.description  = <<-DESC
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 		* Not a single line of code required for complete functionality
                	DESC
 
-  s.homepage     = "https://github.com/MatejBalantic/MBAutoGrowingTextView"
+  s.homepage     = "https://github.com/alexsteinerde/MBAutoGrowingTextView"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author             = { "Matej Balantič" => "matej@balantic.si" }
-  s.screenshots = [ 	"https://raw.githubusercontent.com/MatejBalantic/MBDocs/master/MBAutoGrowingTextView/animated.gif"]
+#s.screenshots = [ 	"https://raw.githubusercontent.com/alexsteinerde/MBDocs/master/MBAutoGrowingTextView/animated.gif"]
   s.social_media_url = "http://twitter.com/skavt"
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/MatejBalantic/MBAutoGrowingTextView.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/alexsteinerde/MBAutoGrowingTextView.git", :tag => s.version.to_s }
   s.source_files  = 'MBAutoGrowingTextView/*.{h,m}'
+  s.dependency 'SAMTextView', '~> 0.2'
   s.requires_arc = true
 end
