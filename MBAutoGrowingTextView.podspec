@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MBAutoGrowingTextView"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "An auto-layout based light-weight UITextView subclass which automatically grows and shrinks based on the size of user input"
 
   s.description  = <<-DESC
