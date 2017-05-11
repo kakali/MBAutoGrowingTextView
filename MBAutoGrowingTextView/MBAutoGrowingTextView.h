@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SAMTextView.h"
+#import <SAMTextView/SAMTextView.h>
 
 /**
  * An auto-layout based light-weight UITextView subclass which automatically grows and shrinks
