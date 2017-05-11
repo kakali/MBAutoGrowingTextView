@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F5CBD07A66699CC3AC3E58E /* libPods-Demonstration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1670E5ACC3A8407A2C6B8BA1 /* libPods-Demonstration.a */; };
+		75A04EBC6BE5E3833FF57D4B /* Pods_Demonstration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19699F4BB6FE18AB70439B7F /* Pods_Demonstration.framework */; };
 		9E2156F419261ED80093455E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F319261ED80093455E /* Foundation.framework */; };
 		9E2156F619261ED80093455E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F519261ED80093455E /* CoreGraphics.framework */; };
 		9E2156F819261ED80093455E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F719261ED80093455E /* UIKit.framework */; };
@@ -23,7 +23,6 @@
 		9E21571D19261ED80093455E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E21571B19261ED80093455E /* InfoPlist.strings */; };
 		9E21571F19261ED80093455E /* DemonstrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21571E19261ED80093455E /* DemonstrationTests.m */; };
 		9E21572A19261EF20093455E /* MBAutoGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21572919261EF20093455E /* MBAutoGrowingTextView.m */; };
-		FAD751AD1EC4897500B49B9A /* libSAMTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD751AC1EC4897500B49B9A /* libSAMTextView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1670E5ACC3A8407A2C6B8BA1 /* libPods-Demonstration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demonstration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19699F4BB6FE18AB70439B7F /* Pods_Demonstration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demonstration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB4A34EAC106BA1D9D18478 /* Pods-Demonstration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demonstration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demonstration/Pods-Demonstration.debug.xcconfig"; sourceTree = "<group>"; };
 		9E2156F019261ED80093455E /* Demonstration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demonstration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2156F319261ED80093455E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,11 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD751AD1EC4897500B49B9A /* libSAMTextView.a in Frameworks */,
 				9E2156F619261ED80093455E /* CoreGraphics.framework in Frameworks */,
 				9E2156F819261ED80093455E /* UIKit.framework in Frameworks */,
 				9E2156F419261ED80093455E /* Foundation.framework in Frameworks */,
-				1F5CBD07A66699CC3AC3E58E /* libPods-Demonstration.a in Frameworks */,
+				75A04EBC6BE5E3833FF57D4B /* Pods_Demonstration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +125,7 @@
 				9E2156F519261ED80093455E /* CoreGraphics.framework */,
 				9E2156F719261ED80093455E /* UIKit.framework */,
 				9E21571219261ED80093455E /* XCTest.framework */,
-				1670E5ACC3A8407A2C6B8BA1 /* libPods-Demonstration.a */,
+				19699F4BB6FE18AB70439B7F /* Pods_Demonstration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

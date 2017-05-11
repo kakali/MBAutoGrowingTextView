@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 		* Not a single line of code required for complete functionality
                	DESC
 
-  s.homepage     = "https://github.com/alexsteinerde//MBAutoGrowingTextView"
+  s.homepage     = "https://github.com/alexsteinerde/MBAutoGrowingTextView"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author             = { "Matej Balantič" => "matej@balantic.si" }
-#s.screenshots = [ 	"https://raw.githubusercontent.com/alexsteinerde//MBDocs/master/MBAutoGrowingTextView/animated.gif"]
+#s.screenshots = [ 	"https://raw.githubusercontent.com/alexsteinerde/MBDocs/master/MBAutoGrowingTextView/animated.gif"]
   s.social_media_url = "http://twitter.com/skavt"
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/alexsteinerde/MBAutoGrowingTextView.git", :tag => s.version.to_s }
